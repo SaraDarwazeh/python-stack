@@ -1,0 +1,42 @@
+.nav {
+    background-color: #333333;
+    padding: 10px;
+    border-radius: 2px;
+    height: 20px;
+}
+
+a {
+    color: #767676;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.nav-links,
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title,
+.active {
+    color: aliceblue;
+}
+
+.btn {
+    background-color: #16A2B8;
+    box-shadow: 2px 2px black;
+    border: 2px solid black;
+    color: aliceblue;
+}
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+ul {
+    list-style-type: none;
+}
+.nav-title{font-size: medium;}

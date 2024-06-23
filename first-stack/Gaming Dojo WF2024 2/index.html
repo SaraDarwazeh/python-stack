@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Dojo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+
+</head>
+
+<body>
+    <div class="header">
+        <h1>Gaming<span id="contrast">Dojo</span></h1>
+        <div class="sub-nav-bar">
+            <select>
+                <option>Eur€</option>
+                <option>USD$</option>
+            </select>
+            <img class="head-icons" src="img/cart-light.png" alt="carticon">
+            <h2 id='cart-items'>0</h2>
+            <img class="head-icons" src="img/search-light.png" alt="searchicon">
+        </div>
+    </div>
+
+    <div class="content">
+        <h2 id="title"> Highlights</h2>
+
+        <div id="scrol-imges">
+            <div class="top">
+                <img class="arrows" id="lift-arr" src="img/chevron-left.png" alt="liftarrow" onclick="slidRight(this)">
+
+                <img id="main-img" src="img/stonepunk.png" alt="mainimg">
+
+                <img class="arrows" id="right-arr" src="img/chevron-right.png" onclick="slidLeft(this)"
+                    alt="rightarrow">
+            </div>
+            <div class="slider">
+                <div class="slider-rectangles " id="0"></div>
+                <div class="slider-rectangles" id="1"></div>
+                <div class="slider-rectangles" id="2"></div>
+                <div class="slider-rectangles" id="4"></div>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div class="card-body">
+                <div> <img class="cards-main-img" src="img/cafe-neko.png" alt="productimg"> </div>
+                <div class="card-info">
+                    <h3> Cafe Neko: Gold Edition</h3>
+                    <div class="icons"> <img class="card-icon" src="img/windows.png" alt="windowsicon"> <img
+                            class="card-icon" src="img/apple.png" alt="appleicon"> </div>
+
+                </div>
+                <div class="card-bottom">
+                    <button class="discount-btn"> -20%</button>
+                    <div>
+                        <div class="before-dis"> €14.98</div>
+                        <h3>€10.47 </h3>
+                    </div>
+                    <button class="buy-btn" onclick="addTocart('cart-items')"> BUY</button>
+                </div>
+            </div>
+            <div class="card-body">
+
+                <div>
+                    <img class="cards-main-img" src="img/pixel-ninjas-2.png" alt="productimg">
+                </div>
+
+                <div class="card-info">
+
+                    <h3> Pixel Ninjas 2</h3>
+                    <div class="icons">
+                        <img class="card-icon" src="img/windows.png" alt="windowsicon">
+                        <img class="card-icon" src="img/apple.png" alt="appleicon">
+                    </div>
+
+
+                </div>
+                <div class="card-bottom">
+
+                    <button class="discount-btn"> -20%</button>
+                    <div>
+                        <div class="before-dis"> €8.19</div>
+                        <h3> €7.39 </h3>
+                    </div>
+
+                    <button class="buy-btn" onclick="addTocart('cart-items')"> BUY</button>
+                </div>
+            </div>
+            <div class="card-body">
+                <div> <img class="cards-main-img" src="img/stonepunk.png" alt="productimg"> </div>
+                <div class="card-info">
+                    <h3>Stonepunk 10000 BCE</h3>
+                    <div class="icons">
+                        <img class="card-icon" src="img/windows.png" alt="windowsicon">
+                        <img class="card-icon" src="img/apple.png" alt="appleicon">
+                        <img class="card-icon" src="img/linux.png" alt="linuxicon" onclick="alertLinux()">
+                    </div>
+
+
+                </div>
+                <div class="card-bottom">
+                    <button class="discount-btn"> -20%</button>
+                    <div>
+
+                        <h3> €19.99 </h3>
+                    </div>
+                    <button class="buy-btn" onclick="addTocart('cart-items')"> BUY</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>

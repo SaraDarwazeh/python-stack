@@ -1,0 +1,68 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.contener {
+    width: 700px;
+    height: 400px;
+    margin: 20%;
+
+    border: 2px solid gray;
+}
+
+.head {
+
+    height: 100px;
+    background-color: #16A2B8;
+
+
+}
+
+.profile {
+    border-radius: 50%;
+    border: 3px solid gray;
+    position: relative;
+    top: 50px;
+    left: 30px;
+    width: 120px;
+    height: 120px;
+
+
+
+}
+
+
+.location,
+.edit-link {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
+
+h1,
+.location,
+.edit-link,
+p {
+    margin: 10px;
+}
+
+.sub-nav {
+    margin: 80px 20px 10px 20px;
+}
+
+.profile-img {
+    width: 100%;
+    height: inherit;
+}
+
+.contener{
+    font-family: "Ubuntu Sans", sans-serif;
+}

@@ -1,0 +1,26 @@
+#like-btn {
+    text-align: center;
+    color: aliceblue;
+    background-color: #FFD965;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    margin: 3px;
+    width: 10%;
+
+}
+
+.content {
+
+    border: 2px solid black;
+    width: 40%;
+    height: 30%;
+    padding:10px;
+    margin: 10% auto;
+
+}
+
+.first-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

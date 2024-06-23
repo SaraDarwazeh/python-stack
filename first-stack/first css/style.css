@@ -1,0 +1,21 @@
+h1{
+    color: aliceblue;
+    background-color: black;
+    }
+
+span{
+    color:aqua}
+
+h2{ 
+    text-align: center;
+    background-color: blueviolet; 
+    color: antiquewhite; 
+    font-style: italic;}
+
+h3{
+    text-align: right;
+    background-color:cornflowerblue;
+    color:black;
+    text-decoration: underline;
+    
+}

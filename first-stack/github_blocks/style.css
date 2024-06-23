@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#contener {
+    background-color:#EFF5FF ;
+    width: 900px;
+    margin: 10px auto;
+    padding: 20px;
+    border-top: 1px solid black;
+
+}
+
+img {
+    height: 200px;}
+
+#first_nav {
+
+    background-color: #4BC9D2;
+
+}
+
+#sec_nav {
+
+    background-color: #D9B3C6;
+
+}
+
+#th_nav {
+    background-color: #d2d2d2;
+
+}
+
+#th_nav,
+#first_nav,
+#sec_nav {
+
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px ;
+}

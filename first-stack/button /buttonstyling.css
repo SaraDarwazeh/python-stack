@@ -1,0 +1,31 @@
+#button1 {
+    background-color: #FFFFFF;
+    text-align: center;
+    color: #4EB2B4;
+    border: 1px solid #4EB2B4;
+    border-radius: 10px;
+    width: 8%;
+
+}
+
+#button2 {
+
+    text-align: center;
+    border-radius: 50%;
+    background-color: #00D1B2;
+    color: aliceblue;
+    border: 0cap;
+    margin: 5px;
+
+}
+
+#button3 {
+    text-align: center;
+    color: aliceblue;
+    background-color: #2C78E4;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    margin: 3px;
+    width: 10%;
+
+}

@@ -1,0 +1,155 @@
+/* 
+other:sara darwazeh
+email:saradarwazeh14@gmail.com
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Ubuntu Sans", sans-serif;
+    background-color: #EEEEEE;
+    height: 100%;
+}
+
+.header {
+    padding: 1%;
+    background-color: #000000;
+    border-top: 5px solid #9B01FF;
+    color: white;
+
+
+
+}
+
+select {
+    width: 30%;
+    height: 50px;
+    text-align: center;
+}
+
+.head-icons {
+    width: 15%;
+    border: 1px solid black;
+}
+
+.header,
+.sub-nav-bar,
+.top,
+.slider,
+.card-bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sub-nav-bar {
+    width: 20%;
+}
+
+#title {
+    margin: 3% 8%;
+    font-size: x-large;
+}
+
+#contrast {
+    color: #9B01FF;
+}
+
+.content {
+    margin: 2% auto;
+}
+
+#main-img {
+    width: 60%;
+    height: 60%;
+}
+
+.arrows {
+    width: 3%;
+    height: 4%;
+}
+
+.slider {
+    margin: 1% 25%;
+}
+
+.slider-rectangles {
+
+    width: 80px;
+    height: 15px;
+    background: #999999;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 3% auto;
+    height: 70em;
+}
+
+.card-body {
+
+    width: 26%;
+    background-color: white;
+
+
+}
+
+
+.cards-main-img {
+    width: 100%;
+}
+
+.card-info {
+    margin: 2em;
+}
+
+
+
+
+.card-icon {
+    width: 10%;
+}
+
+.icons {
+    margin: 5% 0 3% 0;
+}
+
+.discount-btn,
+.buy-btn {
+    margin: 4%;
+    text-align: center;
+    color: aliceblue;
+    border: 0px;
+    width: 40%;
+    height: 5em;
+    font-size: larger;
+}
+
+
+.discount-btn {
+    background-color: #9B01FF;
+}
+
+.before-dis {
+    color: gray;
+    text-decoration: line-through;
+}
+
+.buy-btn {
+    background-color: #6AA84F;
+}
+
+#cart-items {
+    text-decoration: underline;
+}
+
+.selected {
+    background: #9B01FF;
+}
